@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <header class="menu">
+        <a routerLink="BillGates" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Біл Гейтс</a>
+        <a routerLink="Resume" routerLinkActive="active">Резюме</a>
+        <a routerLink="Hobby" routerLinkActive="active">Хобі</a>
+        <a routerLink="Personal Page" routerLinkActive="active">Персональна сторінка</a>
+    </header>
+    <main>
+        <router-outlet></router-outlet>
+        <!-- <app-resume></app-resume> -->
+        <!-- <app-BillGates></app-BillGates> -->
+        <!-- <app-hobby></app-hobby> -->
+        <app-switch></app-switch>
+    </main>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+</div>
